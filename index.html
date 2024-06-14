@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="games.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="title">
+            <h1>Tic Tac Toe</h1>
+        </div>
+    </header>
+    <main>
+        <div id="gamescreen">
+            <div id="plr1">
+                <div id="text1">
+                    <p class="roboto-bold">PLAYER 1</p>
+                </div>
+            </div>
+            <div id="game">
+                <div id="game1">
+                    <div id="gameboard">
+                        <div class="gamerow">
+                            <div class="gamebox roboto-bold" id="box0"></div>
+                            <div class="gamebox roboto-bold" id="box1"></div>
+                            <div class="gamebox roboto-bold" id="box2"></div>
+                        </div>
+                        <div class="gamerow">
+                            <div class="gamebox roboto-bold" id="box3"></div>
+                            <div class="gamebox roboto-bold" id="box4"></div>
+                            <div class="gamebox roboto-bold" id="box5"></div>
+                        </div>
+                        <div class="gamerow">
+                            <div class="gamebox roboto-bold" id="box6"></div>
+                            <div class="gamebox roboto-bold" id="box7"></div>
+                            <div class="gamebox roboto-bold" id="box8"></div>
+
+                        </div>
+                        <div id="line"></div>
+                    </div>
+                    <div id="buttons">
+                        <button id="btn1">START</button>
+                    </div>
+
+                </div>
+            </div>
+            <div id="plr2">
+                <div id="text2">
+                    <p class="roboto-bold">PLAYER 2</p>
+                </div>
+            </div>
+    </main>
+    <div id="winbox">
+        <div id="winbox1">
+            <div id="winimg">
+                <img src="images/winner.gif" alt="winner.gif">
+            </div>
+            <div id="wintext">
+                <p class="roboto-bold" id="wintext1">player 1</p>
+                <p class="roboto-bold" id="wintext2">WON</p>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
