@@ -355,3 +355,17 @@ main {
         scale: 1;
     }
 }
+
+
+
+@media screen and (max-width: 720px) {
+    body {
+        width: 100%;
+    }
+
+    #gamescreen {
+
+       scale: 0.8;
+
+}
+}
